@@ -16,7 +16,7 @@ namespace _2ProjectManagementApi.Models
         public int EstimateInDays { get; set; }
 
         [Required]
-        public DateTime DeadLine { get; set; }
+        public DateTime Deadline    { get; set; }
 
         public Project()
         {}
